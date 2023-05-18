@@ -6,14 +6,20 @@ import image5 from "../Components/images/image5.jpg";
 import image6 from "../Components/images/image6.jpg";
 import image7 from "../Components/images/image7.jpg";
 import image8 from "../Components/images/image8.jpg";
-import imagesalad1 from "../Components/images/imagesalad1";
-import imagesalad2 from "../Components/images/imagesalad2";
-import imagesalad3 from "../Components/images/imagesalad3";
+import imagesalad1 from "../Components/images/imagesalad1.jpg";
+import imagesalad2 from "../Components/images/imagesalad2.jpg";
+import imagesalad3 from "../Components/images/imagesalad3.jpg";
 import chiken1 from "../Components/images/chiken1.jpg";
 import chiken2 from "../Components/images/chiken2.jpg";
 import chiken3 from "../Components/images/chiken3.jpg";
 import chiken4 from "../Components/images/chiken4.jpg";
 import chiken5 from "../Components/images/chiken5.jpg";
+
+import categry from "./images/pizza.png";
+import indian from "./images/indian.png";
+import latest from "./images/latest.png";
+import resturant from "./images/resturant.png";
+import wings from "./images/wings.png";
 
 const data=[
     {
@@ -27,7 +33,7 @@ const data=[
         id:2,
         name:"Fast Bodo Burger",
         image:image2,
-        price:"$$$",
+        price:"$$",
         category:"burger"
     },
     {
@@ -41,14 +47,14 @@ const data=[
         id:4,
         name:"Best Hamburger",
         image:image4,
-        price:"$$$",
+        price:"$",
         category:"burger"
     },
     {
         id:5,
         name:"Fast Pizza",
         image:image5,
-        price:"$$$",
+        price:"$$",
         category:"pizza"
     },
     {
@@ -76,28 +82,28 @@ const data=[
         id:9,
         name:"Salad Food",
         image:imagesalad1,
-        price:"$$$",
+        price:"$",
         category:"salad"
     },
     {
         id:10,
         name:"Salad Italian",
         image:imagesalad2,
-        price:"$$$",
+        price:"$",
         category:"salad"
     },
     {
         id:11,
         name:"Salad Iranian",
         image:imagesalad3,
-        price:"$$$",
+        price:"$",
         category:"salad"
     },
     {
         id:12,
         name:"Chiken",
         image:chiken1,
-        price:"$$$",
+        price:"$$",
         category:"chiken"
     },
     {
@@ -111,23 +117,52 @@ const data=[
         id:14,
         name:"Chiken New Food",
         image:chiken3,
-        price:"$$$",
+        price:"$$",
         category:"chiken"
     },
     {
         id:15,
         name:"Chiken Food Korean",
         image:chiken4,
-        price:"$$$",
+        price:"$$",
         category:"chiken"
     },
     {
         id:16,
         name:"Chiken Food",
         image:chiken5,
-        price:"$$$",
+        price:"$$",
         category:"chiken"
     },
 ]
 
-export default data;
+
+const categoriy=[
+    {
+        id:1,
+        name:"Pizza",
+        image:categry
+    },
+    {
+        id:2,
+        name:"Indian",
+        image:indian
+    },
+    {
+        id:3,
+        name:"Lastest",
+        image:latest
+    },
+    {
+        id:4,
+        name:"resturant",
+        image:resturant
+    },
+    {
+        id:5,
+        name:"Wings",
+        image:wings
+    }
+]
+
+export {data,categoriy};
